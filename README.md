@@ -17,3 +17,6 @@ bundle install
 
 ##### Start server
 rails s -p 3001
+
+##### Assumption
+By default the log monitoring system monitors `log/development.log` file. This can be changed in `app/channels/log_monitor_channel.rb`
